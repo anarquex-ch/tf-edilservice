@@ -1,0 +1,559 @@
+
+  "domotica": {
+    "nuove-costruzioni": {
+      title: "Nuove Costruzioni",
+      subtitle: "Integrazione completa dell'impianto domotico in fase di costruzione.",
+      description: "Integrazione completa dell'impianto domotico in fase di costruzione. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "ristrutturazioni": {
+      title: "Ristrutturazioni",
+      subtitle: "Aggiornamento di immobili esistenti con tecnologie smart.",
+      description: "Aggiornamento di immobili esistenti con tecnologie smart. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "residenze-luxury": {
+      title: "Residenze Luxury",
+      subtitle: "Soluzioni avanzate per ville e appartamenti di alta gamma.",
+      description: "Soluzioni avanzate per ville e appartamenti di alta gamma. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "controllo-illuminazione": {
+      title: "Controllo Illuminazione",
+      subtitle: "Gestione intelligente dell'illuminazione con dimmerazione, scenari e controllo da smartphone.",
+      description: "Gestione intelligente dell'illuminazione con dimmerazione, scenari e controllo da smartphone. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "automazione-tapparelle": {
+      title: "Automazione Tapparelle",
+      subtitle: "Controllo motorizzato di tapparelle e persiane con programmazione oraria e meteo.",
+      description: "Controllo motorizzato di tapparelle e persiane con programmazione oraria e meteo. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "termoregolazione": {
+      title: "Termoregolazione",
+      subtitle: "Gestione intelligente del riscaldamento con termostati programmabili e controllo a distanza.",
+      description: "Gestione intelligente del riscaldamento con termostati programmabili e controllo a distanza. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "integrazione-sistemi": {
+      title: "Integrazione Sistemi",
+      subtitle: "Unificazione di tutti gli impianti domestici in un unico sistema di gestione.",
+      description: "Unificazione di tutti gli impianti domestici in un unico sistema di gestione. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "controllo-remoto": {
+      title: "Controllo Remoto",
+      subtitle: "Controllo e monitoraggio da remoto tramite app dedicata.",
+      description: "Controllo e monitoraggio da remoto tramite app dedicata. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "sicurezza": {
+      title: "Sicurezza",
+      subtitle: "Integrazione con sistemi di allarme e videosorveglianza.",
+      description: "Integrazione con sistemi di allarme e videosorveglianza. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "scenari-personalizzati": {
+      title: "Scenari Personalizzati",
+      subtitle: "Creazione di scenari automatici per diverse situazioni.",
+      description: "Creazione di scenari automatici per diverse situazioni. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "assistenza-vocale": {
+      title: "Assistenza Vocale",
+      subtitle: "Integrazione con Alexa, Google Assistant e Siri.",
+      description: "Integrazione con Alexa, Google Assistant e Siri. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "videosorveglianza": {
+      title: "Videosorveglianza",
+      subtitle: "Gestione centralizzata delle telecamere di sicurezza.",
+      description: "Gestione centralizzata delle telecamere di sicurezza. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "manutenzione": {
+      title: "Manutenzione",
+      subtitle: "Assistenza e aggiornamenti per tutti i sistemi installati.",
+      description: "Assistenza e aggiornamenti per tutti i sistemi installati. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/domotica.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+  },
+  "energie-rinnovabili": {
+    "residenziale": {
+      title: "Residenziale",
+      subtitle: "Case e appartamenti. Risparmio energetico e indipendenza.",
+      description: "Case e appartamenti. Risparmio energetico e indipendenza. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "commerciale": {
+      title: "Commerciale",
+      subtitle: "Aziende e uffici. Energie verdi e immagine sostenibile.",
+      description: "Aziende e uffici. Energie verdi e immagine sostenibile. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "condomini": {
+      title: "Condomini",
+      subtitle: "Condomini condivisi. Gestione intelligente e costi ridotti.",
+      description: "Condomini condivisi. Gestione intelligente e costi ridotti. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "impianti-fotovoltaici": {
+      title: "Impianti Fotovoltaici",
+      subtitle: "Progettazione e installazione di impianti solari per produzione di energia elettrica.",
+      description: "Progettazione e installazione di impianti solari per produzione di energia elettrica. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "accumulo-energia": {
+      title: "Accumulo Energia",
+      subtitle: "Sistemi di accumulo con batterie per massimizzare l'autoconsumo.",
+      description: "Sistemi di accumulo con batterie per massimizzare l'autoconsumo. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "colonnine-ricarica": {
+      title: "Colonnine Ricarica",
+      subtitle: "Installazione stazioni di ricarica per veicoli elettrici, domestiche e aziendali.",
+      description: "Installazione stazioni di ricarica per veicoli elettrici, domestiche e aziendali. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "efficientamento-energetico": {
+      title: "Efficientamento Energetico",
+      subtitle: "Consulenza per la riduzione dei consumi e ottimizzazione energetica.",
+      description: "Consulenza per la riduzione dei consumi e ottimizzazione energetica. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "pratiche-incentivi": {
+      title: "Pratiche Incentivi",
+      subtitle: "Assistenza nella richiesta di incentivi cantonali e federali.",
+      description: "Assistenza nella richiesta di incentivi cantonali e federali. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "monitoraggio": {
+      title: "Monitoraggio",
+      subtitle: "Sistemi di monitoraggio remoto delle performance dell'impianto.",
+      description: "Sistemi di monitoraggio remoto delle performance dell'impianto. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "manutenzione": {
+      title: "Manutenzione",
+      subtitle: "Servizi di pulizia e manutenzione per massimizzare la resa.",
+      description: "Servizi di pulizia e manutenzione per massimizzare la resa. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "inverter-e-optimizer": {
+      title: "Inverter e Optimizer",
+      subtitle: "Installazione di inverter di ultima generazione e optimizer.",
+      description: "Installazione di inverter di ultima generazione e optimizer. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "tetti-solari": {
+      title: "Tetti Solari",
+      subtitle: "Integrazione architettonica con tetti solari innovativi.",
+      description: "Integrazione architettonica con tetti solari innovativi. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "consulenza-energetica": {
+      title: "Consulenza Energetica",
+      subtitle: "Analisi dei consumi e studio di fattibilità personalizzato.",
+      description: "Analisi dei consumi e studio di fattibilità personalizzato. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/energie-rinnovabili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+  },
+  "manutenzione": {
+    "condomini": {
+      title: "Condomini",
+      subtitle: "Manutenzione degli impianti comuni e parti comuni.",
+      description: "Manutenzione degli impianti comuni e parti comuni. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "aziende": {
+      title: "Aziende",
+      subtitle: "Manutenzione di impianti commerciali e industriali.",
+      description: "Manutenzione di impianti commerciali e industriali. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "proprietari": {
+      title: "Proprietari",
+      subtitle: "Assistenza per case e appartamenti privati.",
+      description: "Assistenza per case e appartamenti privati. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "pronto-intervento": {
+      title: "Pronto Intervento",
+      subtitle: "Servizio di emergenza elettrica con tempi di risposta rapidi.",
+      description: "Servizio di emergenza elettrica con tempi di risposta rapidi. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "riparazioni-elettriche": {
+      title: "Riparazioni Elettriche",
+      subtitle: "Interventi su quadri, impianti, interruttori e componenti elettrici.",
+      description: "Interventi su quadri, impianti, interruttori e componenti elettrici. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "manutenzione-programmata": {
+      title: "Manutenzione Programmata",
+      subtitle: "Contratti di manutenzione periodica per impianti civili e industriali.",
+      description: "Contratti di manutenzione periodica per impianti civili e industriali. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "verifiche-e-controlli": {
+      title: "Verifiche e Controlli",
+      subtitle: "Verifiche periodiche degli impianti secondo normativa vigente.",
+      description: "Verifiche periodiche degli impianti secondo normativa vigente. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "sostituzione-componenti": {
+      title: "Sostituzione Componenti",
+      subtitle: "Sostituzione di componenti obsoleti con soluzioni moderne.",
+      description: "Sostituzione di componenti obsoleti con soluzioni moderne. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "verifiche-di-legge": {
+      title: "Verifiche di Legge",
+      subtitle: "Effettuazione verifiche normative e rilascio certificazioni.",
+      description: "Effettuazione verifiche normative e rilascio certificazioni. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "gestione-emergenze": {
+      title: "Gestione Emergenze",
+      subtitle: "Interventi rapidi per guasti e situazioni critiche.",
+      description: "Interventi rapidi per guasti e situazioni critiche. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "diagnosi-da-remoto": {
+      title: "Diagnosi da Remoto",
+      subtitle: "Diagnosi iniziale per interventi mirati.",
+      description: "Diagnosi iniziale per interventi mirati. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "ricambi-di-qualit": {
+      title: "Ricambi di Qualità",
+      subtitle: "Utilizzo di ricambi certificati per ogni intervento.",
+      description: "Utilizzo di ricambi certificati per ogni intervento. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "documentazione": {
+      title: "Documentazione",
+      subtitle: "Registro manutenzione e documentazione tecnica.",
+      description: "Registro manutenzione e documentazione tecnica. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/manutenzione.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+  },
+  "opere-edili": {
+    "proprietari": {
+      title: "Proprietari",
+      subtitle: "Ristrutturazione di case, appartamenti e ville.",
+      description: "Ristrutturazione di case, appartamenti e ville. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "condomini": {
+      title: "Condomini",
+      subtitle: "Manutenzione e riqualificazione di parti comuni.",
+      description: "Manutenzione e riqualificazione di parti comuni. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "aziende": {
+      title: "Aziende",
+      subtitle: "Ristrutturazione di locali commerciali e uffici.",
+      description: "Ristrutturazione di locali commerciali e uffici. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "ristrutturazioni-complete": {
+      title: "Ristrutturazioni Complete",
+      subtitle: "Riqualificazione totale di appartamenti, ville e locali commerciali.",
+      description: "Riqualificazione totale di appartamenti, ville e locali commerciali. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "impiantistica": {
+      title: "Impiantistica",
+      subtitle: "Installazione e ristrutturazione di impianti elettrici, idraulici e termici.",
+      description: "Installazione e ristrutturazione di impianti elettrici, idraulici e termici. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "opere-murarie": {
+      title: "Opere Murarie",
+      subtitle: "Demolizioni, rifacimenti, intonaci e finiture di qualità.",
+      description: "Demolizioni, rifacimenti, intonaci e finiture di qualità. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "coordinamento-cantiere": {
+      title: "Coordinamento Cantiere",
+      subtitle: "Gestione completa con coordinamento di tutte le maestranze.",
+      description: "Gestione completa con coordinamento di tutte le maestranze. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "manutenzione-stabili": {
+      title: "Manutenzione Stabili",
+      subtitle: "Servizi di manutenzione ordinaria e straordinaria per condomini.",
+      description: "Servizi di manutenzione ordinaria e straordinaria per condomini. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "pavimentazioni": {
+      title: "Pavimentazioni",
+      subtitle: "Posa di pavimenti in gres, parquet, ceramica e pietra.",
+      description: "Posa di pavimenti in gres, parquet, ceramica e pietra. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "tinteggiatura": {
+      title: "Tinteggiatura",
+      subtitle: "Rivestimenti murali e tinteggiature di interni ed esterni.",
+      description: "Rivestimenti murali e tinteggiature di interni ed esterni. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "carpenteria": {
+      title: "Carpenteria",
+      subtitle: "Lavori di falegnameria e infissi su misura.",
+      description: "Lavori di falegnameria e infissi su misura. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "facciate": {
+      title: "Facciate",
+      subtitle: "Riqualificazione energetica e restauro facciate.",
+      description: "Riqualificazione energetica e restauro facciate. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "restauro": {
+      title: "Restauro",
+      subtitle: "Interventi su edifici storici e vincolati.",
+      description: "Interventi su edifici storici e vincolati. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/opere-edili.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+  },
+  "sicurezza": {
+    "residenziale": {
+      title: "Residenziale",
+      subtitle: "Case, ville e appartamenti. Protezione completa per la vostra famiglia.",
+      description: "Case, ville e appartamenti. Protezione completa per la vostra famiglia. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "commerciale": {
+      title: "Commerciale",
+      subtitle: "Uffici, negozi e attività. Sicurezza per i vostri beni e dipendenti.",
+      description: "Uffici, negozi e attività. Sicurezza per i vostri beni e dipendenti. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "industriale": {
+      title: "Industriale",
+      subtitle: "Fabbriche e capannoni. Sistemi avanzati per ambienti di produzione.",
+      description: "Fabbriche e capannoni. Sistemi avanzati per ambienti di produzione. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "impianti-d-allarme": {
+      title: "Impianti d'Allarme",
+      subtitle: "Sistemi antifurto perimetrali e volumetrici con sensori di movimento e contatti magnetici.",
+      description: "Sistemi antifurto perimetrali e volumetrici con sensori di movimento e contatti magnetici. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "videosorveglianza-cctv": {
+      title: "Videosorveglianza CCTV",
+      subtitle: "Telecamere IP e analogiche con registrazione e monitoraggio da remoto.",
+      description: "Telecamere IP e analogiche con registrazione e monitoraggio da remoto. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "rilevazione-incendi": {
+      title: "Rilevazione Incendi",
+      subtitle: "Rilevatori di fumo e sistemi di allarme antincendio conformi alle normative.",
+      description: "Rilevatori di fumo e sistemi di allarme antincendio conformi alle normative. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "controllo-accessi": {
+      title: "Controllo Accessi",
+      subtitle: "Sistemi di badge e controllo accessi per edifici commerciali e condomini.",
+      description: "Sistemi di badge e controllo accessi per edifici commerciali e condomini. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "monitoraggio-24-7": {
+      title: "Monitoraggio 24/7",
+      subtitle: "Collegamento a istituti di vigilanza per monitoraggio continuo.",
+      description: "Collegamento a istituti di vigilanza per monitoraggio continuo. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "sistemi-perimetrali": {
+      title: "Sistemi Perimetrali",
+      subtitle: "Protezione del perimetro con barriere infrarossi e sensori.",
+      description: "Protezione del perimetro con barriere infrarossi e sensori. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "domotica-sicura": {
+      title: "Domotica Sicura",
+      subtitle: "Integrazione con sistemi domotici per automazioni di sicurezza.",
+      description: "Integrazione con sistemi domotici per automazioni di sicurezza. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "manutenzione": {
+      title: "Manutenzione",
+      subtitle: "Contratti di manutenzione e assistenza per tutti i sistemi.",
+      description: "Contratti di manutenzione e assistenza per tutti i sistemi. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "installazione-certificata": {
+      title: "Installazione Certificata",
+      subtitle: "Tecnici qualificati con certificazioni di settore.",
+      description: "Tecnici qualificati con certificazioni di settore. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "supporto-24h": {
+      title: "Supporto 24h",
+      subtitle: "Assistenza tecnica disponibile 24 ore su 24 per emergenze.",
+      description: "Assistenza tecnica disponibile 24 ore su 24 per emergenze. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/sicurezza.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+  },
+  "telecomunicazioni-it": {
+    "aziende-e-uffici": {
+      title: "Aziende e Uffici",
+      subtitle: "Reti aziendali, Wi-Fi, VoIP e data center per piccole e medie imprese.",
+      description: "Reti aziendali, Wi-Fi, VoIP e data center per piccole e medie imprese. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "residenze-private": {
+      title: "Residenze Private",
+      subtitle: "Reti domestiche, Wi-Fi e sistemi multimediali per abitazioni.",
+      description: "Reti domestiche, Wi-Fi e sistemi multimediali per abitazioni. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "attivit-commerciali": {
+      title: "Attività Commerciali",
+      subtitle: "Connettività per negozi, ristoranti, hotel e locali pubblici.",
+      description: "Connettività per negozi, ristoranti, hotel e locali pubblici. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "cablaggio-strutturato": {
+      title: "Cablaggio Strutturato",
+      subtitle: "Installazione di reti cablate Cat6/Cat6a per trasmissione dati ad alta velocità.",
+      description: "Installazione di reti cablate Cat6/Cat6a per trasmissione dati ad alta velocità. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "reti-wi-fi-aziendali": {
+      title: "Reti Wi-Fi Aziendali",
+      subtitle: "Progettazione e installazione di reti wireless con copertura completa.",
+      description: "Progettazione e installazione di reti wireless con copertura completa. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "sistemi-voip": {
+      title: "Sistemi VoIP",
+      subtitle: "Centralini telefonici e sistemi VoIP per comunicazioni aziendali.",
+      description: "Centralini telefonici e sistemi VoIP per comunicazioni aziendali. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "data-center": {
+      title: "Data Center",
+      subtitle: "Realizzazione di armadi rack e infrastrutture per server.",
+      description: "Realizzazione di armadi rack e infrastrutture per server. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "firewall-e-sicurezza": {
+      title: "Firewall e Sicurezza",
+      subtitle: "Sistemi di protezione per la rete aziendale.",
+      description: "Sistemi di protezione per la rete aziendale. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "switch-e-routing": {
+      title: "Switch e Routing",
+      subtitle: "Configurazione di switch gestiti e router professionali.",
+      description: "Configurazione di switch gestiti e router professionali. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "video-sorveglianza-ip": {
+      title: "Video Sorveglianza IP",
+      subtitle: "Integrazione di sistemi di videosorveglianza sulla rete dati.",
+      description: "Integrazione di sistemi di videosorveglianza sulla rete dati. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "manutenzione-reti": {
+      title: "Manutenzione Reti",
+      subtitle: "Assistenza e manutenzione per infrastrutture IT esistenti.",
+      description: "Assistenza e manutenzione per infrastrutture IT esistenti. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "diagnosi-e-troubleshooting": {
+      title: "Diagnosi e Troubleshooting",
+      subtitle: "Analisi e risoluzione problemi di rete.",
+      description: "Analisi e risoluzione problemi di rete. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+    "consulenza-it": {
+      title: "Consulenza IT",
+      subtitle: "Consulenza per l'ottimizzazione dell'infrastruttura tecnologica.",
+      description: "Consulenza per l'ottimizzazione dell'infrastruttura tecnologica. Offriamo soluzioni all'avanguardia e su misura per ogni esigenza in tutto il Canton Ticino.",
+      imageUrl: "/images/servizi/telecomunicazioni-it.jpg",
+      keyPoints: [{ text: "Servizio di alta qualità" }, { text: "Personale qualificato" }, { text: "Soluzioni personalizzate" }, { text: "Assistenza dedicata" }]
+    },
+  },

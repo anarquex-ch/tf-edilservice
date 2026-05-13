@@ -1,0 +1,42 @@
+import { Metadata } from "next";
+import PageHero from "@/components/PageHero";
+import ServiceContent from "@/components/ServiceContent";
+
+export const metadata: Metadata = {
+  title: "Sicurezza: Antifurto, Videosorveglianza e Rilevazione Incendi | TF Edilservice Sagl",
+  description: "Impianti d'allarme, videosorveglianza CCTV e rilevazione fumo e incendi. Protezione completa per la vostra tranquillità in Canton Ticino.",
+  keywords: "sicurezza, allarme, videosorveglianza, CCTV, rilevazione fumo, antincendio, Ticino",
+  openGraph: { title: "Sicurezza: Antifurto, Videosorveglianza e Rilevazione Incendi | TF Edilservice Sagl", description: "Impianti d'allarme, videosorveglianza CCTV e rilevazione fumo e incendi.", url: "https://www.tf-edilservice.ch/servizi/sicurezza", type: "website" },
+  alternates: { canonical: "https://www.tf-edilservice.ch/servizi/sicurezza" },
+};
+
+const faqData = [
+  { question: "Quali tipologie di impianti di allarme installate?", answer: "Installiamo impianti antifurto perimetrali (che proteggono i confini dell'edificio) e volumetrici (che rilevano movimenti all'interno). Utilizziamo sensori di movimento, contatti magnetici per porte e finestre, barriere infrarossi e centrali di allarme collegate a istituti di vigilanza certificati." },
+  { question: "La videosorveglianza è accessibile da remoto?", answer: "Sì, tutti i nostri sistemi di videosorveglianza permettono il monitoraggio in tempo reale da smartphone, tablet o computer tramite connessione protetta e crittografata. È possibile visualizzare le immagini in diretta e rivedere le registrazioni archiviate." },
+  { question: "Gli impianti antincendio sono conformi alle normative?", answer: "Sì, tutti gli impianti di rilevazione fumo e antincendio sono conformi alle normative vigenti e certificati secondo le direttive sulla protezione antincendio. Utilizziamo rilevatori di fumo, rilevatori di calore e sistemi di allarme conforme alla norma Svizzera." },
+  { question: "Cos'è un sistema anti-intrusione perimetrale?", answer: "Un sistema perimetrale protegge il perimetro dell'edificio rilevando tentativi di effrazione prima che l'intruso entri nell'immobile. Include barriere infrarossi, sensori su porte e finestre, e può attivare dissuasori sonori o luminosi." },
+  { question: "Quali sono i vantaggi di un sistema di videosorveglianza IP?", answer: "Le telecamere IP offrono risoluzione superiore (fino a 4K), compressione video efficiente, analisi video intelligente (riconoscimento volti, rilevamento movimento), integrazione con altri sistemi e accesso remoto semplificato." },
+  { question: "Come funziona il collegamento a un istituto di vigilanza?", answer: "In caso di allarme, il sistema invia immediatamente un segnale all'istituto di vigilanza che interviene verificando la situazione e allertando le forze dell'ordine. Il servizio garantisce intervento rapido 24 ore su 24, 7 giorni su 7." },
+  { question: "Posso integrare videosorveglianza e antifurto in un unico sistema?", answer: "Sì, è possibile integrare tutti i sistemi di sicurezza in una soluzione unificata gestita da una singola centrale. Questo permette una gestione centralizzata, automazioni coordinate e riduzione dei costi di gestione." },
+  { question: "Quanto tempo occorre per installare un sistema di sicurezza?", answer: "I tempi dipendono dalla complessità dell'impianto. Per un appartamento occorrono 1-2 giorni, per una villa 2-3 giorni, mentre per un'attività commerciale i tempi variano in base alle dimensioni." },
+  { question: "I sistemi di sicurezza richiedono manutenzione?", answer: "Sì, consigliamo una manutenzione periodica annuale per verificare il funzionamento di tutti i componenti, sostituire le batterie dei sensori wireless e aggiornare il firmware della centrale." },
+  { question: "Fornite certificazione degli impianti di sicurezza?", answer: "Sì, tutti i nostri impianti vengono certificati e documentati. Forniamo documentazione tecnica completa, schemi di installazione e certificato di conformità secondo le normative vigenti." }
+];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Service", "name": "Sicurezza", "description": "Impianti d'allarme, videosorveglianza CCTV e rilevazione fumo e incendi.", "provider": { "@type": "Organization", "name": "TF Edilservice Sagl" }, "areaServed": { "@type": "State", "name": "Canton Ticino" } },
+    { "@type": "FAQPage", "mainEntity": faqData.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } })) }
+  ]
+};
+
+export default function SicurezzaPage() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <PageHero iconName="Shield" title="Sicurezza" subtitle="Impianti d'allarme, videosorveglianza e rilevazione incendi per proteggere la vostra casa, ufficio o attività commerciale in Canton Ticino." breadcrumb={[{ label: "Home", href: "/" }, { label: "Servizi", href: "/servizi" }, { label: "Sicurezza" }]} imageUrl="/images/servizi/sicurezza.jpg" keyPoints={[{ text: "Protezione 24 ore su 24, 7 giorni su 7" }, { text: "Videosorveglianza IP con accesso da remoto" }, { text: "Collegamento a istituti di vigilanza" }, { text: "Conformità certificata alle normative" }, { text: "Sistemi integrati antifurto e videosorveglianza" }]} />
+      <ServiceContent definition="I sistemi di sicurezza comprendono impianti antifurto, videosorveglianza e rilevazione incendi che proteggono case, uffici e attività commerciali. Un sistema di sicurezza professionale garantisce protezione 24 ore su 24, dissuasione da tentativi di intrusione e tempestiva segnalazione di emergenze. In un mondo dove la sicurezza è sempre più importante, affidarsi a professionisti del settore è la scelta migliore per proteggere ciò che conta." targetAudience={[{ title: "Residenziale", description: "Case, ville e appartamenti. Protezione completa per la vostra famiglia.", slug: "residenziale" }, { title: "Commerciale", description: "Uffici, negozi e attività. Sicurezza per i vostri beni e dipendenti.", slug: "commerciale" }, { title: "Industriale", description: "Fabbriche e capannoni. Sistemi avanzati per ambienti di produzione.", slug: "industriale" }]} features={[{ title: "Impianti d'Allarme", description: "Sistemi antifurto perimetrali e volumetrici con sensori di movimento e contatti magnetici.", slug: "impianti-d-allarme" }, { title: "Videosorveglianza CCTV", description: "Telecamere IP e analogiche con registrazione e monitoraggio da remoto.", slug: "videosorveglianza-cctv" }, { title: "Rilevazione Incendi", description: "Rilevatori di fumo e sistemi di allarme antincendio conformi alle normative.", slug: "rilevazione-incendi" }, { title: "Controllo Accessi", description: "Sistemi di badge e controllo accessi per edifici commerciali e condomini.", slug: "controllo-accessi" }, { title: "Monitoraggio 24/7", description: "Collegamento a istituti di vigilanza per monitoraggio continuo.", slug: "monitoraggio-24-7" }, { title: "Sistemi Perimetrali", description: "Protezione del perimetro con barriere infrarossi e sensori.", slug: "sistemi-perimetrali" }, { title: "Domotica Sicura", description: "Integrazione con sistemi domotici per automazioni di sicurezza.", slug: "domotica-sicura" }, { title: "Manutenzione", description: "Contratti di manutenzione e assistenza per tutti i sistemi.", slug: "manutenzione" }, { title: "Installazione Certificata", description: "Tecnici qualificati con certificazioni di settore.", slug: "installazione-certificata" }, { title: "Supporto 24h", description: "Assistenza tecnica disponibile 24 ore su 24 per emergenze.", slug: "supporto-24h" }]} processSteps={[{ step: 1, title: "Analisi", description: "Sopraluogo e valutazione rischi" }, { step: 2, title: "Progettazione", description: "Studio del sistema ottimale" }, { step: 3, title: "Installazione", description: "Posa e configurazione" }, { step: 4, title: "Collaudo", description: "Test e certificazione" }, { step: 5, title: "Assistenza", description: "Supporto continuo" }]} benefits={["Protezione 24 ore su 24", "Deterrenza contro furti e intrusioni", "Monitoraggio da remoto in tempo reale", "Conformità normativa certificata", "Collegamento a istituti di vigilanza", "Supporto tecnico 24/7"]} faq={faqData} serviceName="Sicurezza" parentSlug="sicurezza" />
+    </>
+  );
+}
