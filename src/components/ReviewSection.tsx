@@ -13,6 +13,33 @@ const GoogleLogo = () => (
   </svg>
 );
 
+const ReviewCard = ({ review }: { review: typeof reviewsData[0] }) => (
+  <div className="min-w-[85vw] md:min-w-0 bg-gray-50 p-8 rounded-[2rem] flex flex-col hover:bg-gray-100/80 transition-colors duration-300">
+    <div className="flex justify-between items-start mb-6">
+      <div className="flex gap-1">
+        {[...Array(review.rating)].map((_, i) => (
+          <Star key={i} className="w-4 h-4 fill-[#FBBC05] text-[#FBBC05]" />
+        ))}
+      </div>
+      <GoogleLogo />
+    </div>
+
+    <p className="text-gray-700 mb-8 leading-relaxed flex-1 text-[15px]">
+      "{review.text}"
+    </p>
+
+    <div className="flex items-center gap-4 mt-auto">
+      <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center font-bold text-gray-900 shadow-sm border border-gray-100 shrink-0">
+        {review.author.charAt(0)}
+      </div>
+      <div>
+        <p className="font-bold text-gray-900 text-sm">{review.author}</p>
+        <p className="text-xs text-gray-500">{review.location}</p>
+      </div>
+    </div>
+  </div>
+);
+
 export default function ReviewSection() {
   return (
     <section className="py-24 bg-white overflow-hidden">
@@ -33,7 +60,28 @@ export default function ReviewSection() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Mobile Carousel - Infinite Marquee */}
+        <div className="md:hidden flex overflow-hidden -mx-6 px-6">
+          <motion.div
+            className="flex gap-6 py-4"
+            animate={{
+              x: ["0%", "-50%"]
+            }}
+            transition={{
+              duration: 25,
+              repeat: Infinity,
+              ease: "linear",
+            }}
+            style={{ width: "max-content" }}
+          >
+            {[...reviewsData, ...reviewsData].map((review, i) => (
+              <ReviewCard key={`${review.id}-${i}`} review={review} />
+            ))}
+          </motion.div>
+        </div>
+
+        {/* Desktop Grid */}
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {reviewsData.map((review, i) => (
             <motion.div
               key={review.id}
@@ -41,30 +89,8 @@ export default function ReviewSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="bg-gray-50 p-8 rounded-[2rem] flex flex-col hover:bg-gray-100/80 transition-colors duration-300"
             >
-              <div className="flex justify-between items-start mb-6">
-                <div className="flex gap-1">
-                  {[...Array(review.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#FBBC05] text-[#FBBC05]" />
-                  ))}
-                </div>
-                <GoogleLogo />
-              </div>
-
-              <p className="text-gray-700 mb-8 leading-relaxed flex-1 text-[15px]">
-                "{review.text}"
-              </p>
-
-              <div className="flex items-center gap-4 mt-auto">
-                <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center font-bold text-gray-900 shadow-sm border border-gray-100 shrink-0">
-                  {review.author.charAt(0)}
-                </div>
-                <div>
-                  <p className="font-bold text-gray-900 text-sm">{review.author}</p>
-                  <p className="text-xs text-gray-500">{review.location}</p>
-                </div>
-              </div>
+              <ReviewCard review={review} />
             </motion.div>
           ))}
         </div>
