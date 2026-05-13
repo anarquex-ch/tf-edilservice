@@ -22,6 +22,14 @@ export default function QuoteForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
+  const [formData, setFormData] = useState({
+    timing: "",
+    description: "",
+    name: "",
+    email: "",
+    phone: "",
+    location: ""
+  });
 
   const toggleService = (id: string) => {
     setSelectedServices(prev => 
@@ -36,26 +44,13 @@ export default function QuoteForm() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    const formData = new FormData(e.currentTarget);
-    const timing = formData.get('timing');
-    const description = formData.get('description');
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const phone = formData.get('phone');
-    const location = formData.get('location');
-
     try {
       const response = await fetch('/api/quote', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           services: selectedServices.map(s => servicesList.find(sl => sl.id === s)?.title || s),
-          timing,
-          description,
-          name,
-          email,
-          phone,
-          location
+          ...formData
         }),
       });
 
@@ -178,7 +173,12 @@ export default function QuoteForm() {
                   <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
                     <Calendar className="h-5 w-5 text-gray-400" />
                   </div>
-                  <select name="timing" defaultValue="" className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none appearance-none text-gray-700">
+                  <select 
+                    name="timing" 
+                    value={formData.timing}
+                    onChange={(e) => setFormData({ ...formData, timing: e.target.value })}
+                    className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none appearance-none text-gray-700"
+                  >
                     <option value="" disabled>Seleziona una tempistica</option>
                     <option value="urgente">Urgente (Il prima possibile)</option>
                     <option value="1-mese">Entro 1 mese</option>
@@ -197,6 +197,8 @@ export default function QuoteForm() {
                   <textarea 
                     name="description"
                     required
+                    value={formData.description}
+                    onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                     rows={5}
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none resize-none text-gray-700"
                     placeholder="Descrivi brevemente il progetto, ad esempio: 'Vorrei installare un impianto fotovoltaico da 6kWp con batteria di accumulo...'"
@@ -242,6 +244,8 @@ export default function QuoteForm() {
                     type="text" 
                     name="name"
                     required
+                    value={formData.name}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
                     placeholder="Mario Rossi"
                   />
@@ -258,6 +262,8 @@ export default function QuoteForm() {
                     type="email" 
                     name="email"
                     required
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
                     placeholder="mario.rossi@email.ch"
                   />
@@ -274,6 +280,8 @@ export default function QuoteForm() {
                     type="tel" 
                     name="phone"
                     required
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
                     placeholder="+41 79 349 45 46"
                   />
@@ -290,6 +298,8 @@ export default function QuoteForm() {
                     type="text" 
                     name="location"
                     required
+                    value={formData.location}
+                    onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
                     placeholder="6500 Bellinzona"
                   />
