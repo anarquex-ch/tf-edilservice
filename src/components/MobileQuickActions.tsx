@@ -33,7 +33,7 @@ export default function MobileQuickActions() {
         >
           <div className="bg-primary/95 backdrop-blur-lg border-t border-white/10 shadow-[0_-10px_40px_rgba(0,0,0,0.15)] flex items-stretch h-[60px]">
             <a 
-              href="tel:+41764611599" 
+              href="tel:+41793494546" 
               className="flex-1 flex flex-col items-center justify-center gap-1 hover:bg-white/10 transition-colors border-r border-white/10"
             >
               <Phone className="w-[22px] h-[22px] text-white" />
@@ -49,7 +49,7 @@ export default function MobileQuickActions() {
             </Link>
             
             <a 
-              href="https://wa.me/41764611599" 
+              href="https://wa.me/41793494546" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex flex-col items-center justify-center gap-1 hover:bg-white/10 transition-colors border-l border-white/10"

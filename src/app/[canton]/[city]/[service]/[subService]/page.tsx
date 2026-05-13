@@ -72,7 +72,7 @@ export default async function CitySubServiceHubPage({
     "provider": {
       "@type": "LocalBusiness",
       "name": "TF Edilservice Sagl",
-      "telephone": "+4179XXXXXXX",
+      "telephone": "+41793494546",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "CH"

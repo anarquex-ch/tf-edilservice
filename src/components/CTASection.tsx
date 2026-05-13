@@ -20,7 +20,7 @@ export default function CTASection({
   primaryButtonText = "Richiedi un Preventivo",
   primaryButtonHref = "/preventivo",
   secondaryButtonText = "Chiamaci",
-  secondaryButtonHref = "tel:+41764611599",
+  secondaryButtonHref = "tel:+41793494546",
   showCards = true,
 }: CTASectionProps) {
   return (

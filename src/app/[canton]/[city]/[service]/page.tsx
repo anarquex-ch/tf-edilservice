@@ -72,7 +72,7 @@ export default async function CityServiceHubPage({
     "provider": {
       "@type": "LocalBusiness",
       "name": "TF Edilservice Sagl",
-      "telephone": "+41764611599",
+      "telephone": "+41793494546",
       "image": "https://www.tf-edilservice.ch/images/logo.png",
       "address": {
         "@type": "PostalAddress",

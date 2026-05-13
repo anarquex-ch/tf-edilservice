@@ -97,7 +97,7 @@ export default function PrivacyPage() {
                 Via Campagna 4b<br />
                 6512 Giubiasco, Svizzera<br />
                 Email: <a href="mailto:info@tfedilservice.ch">info@tfedilservice.ch</a><br />
-                Telefono: <a href="tel:+41764611599">+41 76 461 15 99</a>
+                Telefono: <a href="tel:+41793494546">+41 79 349 45 46</a>
               </div>
 
               <h2>2. Quali dati raccogliamo</h2>

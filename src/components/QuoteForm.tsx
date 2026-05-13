@@ -36,11 +36,39 @@ export default function QuoteForm() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate API call for form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    setIsSubmitting(false);
-    setIsSuccess(true);
+    const formData = new FormData(e.currentTarget);
+    const timing = formData.get('timing');
+    const description = formData.get('description');
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const phone = formData.get('phone');
+    const location = formData.get('location');
+
+    try {
+      const response = await fetch('/api/quote', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          services: selectedServices.map(s => servicesList.find(sl => sl.id === s)?.title || s),
+          timing,
+          description,
+          name,
+          email,
+          phone,
+          location
+        }),
+      });
+
+      if (response.ok) {
+        setIsSuccess(true);
+      } else {
+        alert("Si è verificato un errore durante l'invio. Riprova più tardi.");
+      }
+    } catch (error) {
+      alert("Errore di connessione. Riprova più tardi.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSuccess) {
@@ -150,7 +178,7 @@ export default function QuoteForm() {
                   <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
                     <Calendar className="h-5 w-5 text-gray-400" />
                   </div>
-                  <select defaultValue="" className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none appearance-none text-gray-700">
+                  <select name="timing" defaultValue="" className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none appearance-none text-gray-700">
                     <option value="" disabled>Seleziona una tempistica</option>
                     <option value="urgente">Urgente (Il prima possibile)</option>
                     <option value="1-mese">Entro 1 mese</option>
@@ -167,6 +195,7 @@ export default function QuoteForm() {
                     <MessageSquare className="h-5 w-5 text-gray-400" />
                   </div>
                   <textarea 
+                    name="description"
                     required
                     rows={5}
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none resize-none text-gray-700"
@@ -211,6 +240,7 @@ export default function QuoteForm() {
                   </div>
                   <input 
                     type="text" 
+                    name="name"
                     required
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
                     placeholder="Mario Rossi"
@@ -226,6 +256,7 @@ export default function QuoteForm() {
                   </div>
                   <input 
                     type="email" 
+                    name="email"
                     required
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
                     placeholder="mario.rossi@email.ch"
@@ -241,9 +272,10 @@ export default function QuoteForm() {
                   </div>
                   <input 
                     type="tel" 
+                    name="phone"
                     required
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
-                    placeholder="+41 79 000 00 00"
+                    placeholder="+41 79 349 45 46"
                   />
                 </div>
               </div>
@@ -256,6 +288,7 @@ export default function QuoteForm() {
                   </div>
                   <input 
                     type="text" 
+                    name="location"
                     required
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
                     placeholder="6500 Bellinzona"

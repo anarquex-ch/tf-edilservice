@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 const contactInfo = {
   address: "Via Campagna 4b, 6512 Giubiasco",
   email: "info@tfedilservice.ch",
-  phone: "+41 79 XXX XX XX",
+  phone: "+41 79 349 45 46",
 };
 
 const hours = [
@@ -26,14 +26,26 @@ export default function ContattiPage() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setTimeout(() => {
-      alert("Grazie per il messaggio! Ti contatteremo al più presto.");
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        alert("Grazie per il messaggio! Ti contatteremo al più presto.");
+        setFormData({ name: "", email: "", phone: "", message: "" });
+      } else {
+        alert("Si è verificato un errore durante l'invio. Riprova più tardi.");
+      }
+    } catch (error) {
+      alert("Errore di connessione. Riprova più tardi.");
+    } finally {
       setIsSubmitting(false);
-      setFormData({ name: "", email: "", phone: "", message: "" });
-    }, 1000);
+    }
   };
 
   return (
@@ -178,7 +190,7 @@ export default function ContattiPage() {
                       setFormData({ ...formData, phone: e.target.value })
                     }
                     className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all"
-                    placeholder="+41 79 XXX XX XX"
+                    placeholder="+41 79 349 45 46"
                   />
                 </div>
 

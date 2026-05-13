@@ -267,10 +267,10 @@ export default async function UtilitaPostPage({
                    <h5 className="font-bold text-primary mb-2 text-lg">Hai una domanda specifica?</h5>
                    <p className="text-gray-500 text-sm mb-6">Chiamaci ora per una consulenza senza impegno.</p>
                    <a 
-                     href="tel:+41764611599" 
+                     href="tel:+41793494546" 
                      className="block text-2xl font-black text-accent hover:scale-105 transition-transform"
                    >
-                     +41 76 461 15 99
+                     +41 79 349 45 46
                    </a>
                 </div>
               </div>
