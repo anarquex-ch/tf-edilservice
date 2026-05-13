@@ -79,8 +79,7 @@ function GridBackground() {
 }
 
 export default function Hero() {
-  const imageUrl = "/images/home-hero.jpg"; // Immagine da caricare
-  const finalImageUrl = imageUrl || "/images/servizi/impianti-elettrici.jpg";
+  const finalImageUrl = "/images/servizi/impianti-elettrici.jpg";
 
   return (
     <section 
@@ -99,14 +98,13 @@ export default function Hero() {
         className="hidden lg:block absolute inset-y-0 right-0 w-[55%] z-0"
         style={{ clipPath: 'polygon(15% 0, 100% 0, 100% 100%, 0% 100%)' }}
       >
-        <img 
+        <Image 
           src={finalImageUrl} 
           alt="TF Edilservice Sagl" 
-          className="w-full h-full object-cover"
-          loading="eager"
-          onError={(e) => {
-            e.currentTarget.src = "/images/servizi/impianti-elettrici.jpg";
-          }}
+          fill
+          priority
+          sizes="(min-width: 1024px) 55vw, 100vw"
+          className="object-cover"
         />
 
         {/* Subtle Overlay for text contrast */}
@@ -120,14 +118,13 @@ export default function Hero() {
 
       {/* MOBILE IMAGE BACKGROUND */}
       <div className="absolute inset-0 z-0 lg:hidden">
-        <img 
+        <Image 
           src={finalImageUrl} 
           alt="TF Edilservice Sagl" 
-          className="w-full h-full object-cover"
-          loading="eager"
-          onError={(e) => {
-            e.currentTarget.src = "/images/servizi/impianti-elettrici.jpg";
-          }}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
         <ElectricityAnimation />
         <div className="absolute inset-0 bg-[#383837]/60" />

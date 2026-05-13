@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 import { reviewsData } from "@/data/reviewsData";
 
@@ -62,36 +61,22 @@ export default function ReviewSection() {
 
         {/* Mobile Carousel - Infinite Marquee */}
         <div className="md:hidden flex overflow-hidden -mx-6 px-6">
-          <motion.div
-            className="flex gap-6 py-4"
-            animate={{
-              x: ["0%", "-50%"]
-            }}
-            transition={{
-              duration: 25,
-              repeat: Infinity,
-              ease: "linear",
-            }}
+          <div
+            className="flex gap-6 py-4 animate-marquee"
             style={{ width: "max-content" }}
           >
             {[...reviewsData, ...reviewsData].map((review, i) => (
               <ReviewCard key={`${review.id}-${i}`} review={review} />
             ))}
-          </motion.div>
+          </div>
         </div>
 
         {/* Desktop Grid */}
         <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {reviewsData.map((review, i) => (
-            <motion.div
-              key={review.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-            >
+          {reviewsData.map((review) => (
+            <div key={review.id}>
               <ReviewCard review={review} />
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
