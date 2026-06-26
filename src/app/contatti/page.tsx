@@ -8,7 +8,7 @@ import PageHero from "@/components/PageHero";
 const contactInfo = {
   address: "Via Campagna 4b, 6512 Giubiasco",
   email: "info@tfedilservice.ch",
-  phone: "+41 79 349 45 46",
+  phone: "+41 91 290 85 70",
 };
 
 const hours = [
@@ -190,7 +190,7 @@ export default function ContattiPage() {
                       setFormData({ ...formData, phone: e.target.value })
                     }
                     className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-accent focus:border-transparent outline-none transition-all"
-                    placeholder="+41 79 349 45 46"
+                    placeholder="+41 91 290 85 70"
                   />
                 </div>
 

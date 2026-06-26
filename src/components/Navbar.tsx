@@ -211,13 +211,13 @@ export default function Navbar() {
                 </Link>
 
                 <div className="grid grid-cols-1 gap-3 w-full">
-                  <a href="tel:+41793494546" className="flex items-center gap-4 p-4 bg-gray-50 active:bg-gray-100 rounded-2xl w-full">
+                  <a href="tel:+41912908570" className="flex items-center gap-4 p-4 bg-gray-50 active:bg-gray-100 rounded-2xl w-full">
                     <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm text-accent shrink-0">
                       <Phone className="w-6 h-6" />
                     </div>
                     <div className="flex-1">
                       <p className="text-xs text-gray-500 font-medium">Chiamaci ora</p>
-                      <p className="font-bold text-primary">+41 79 349 45 46</p>
+                      <p className="font-bold text-primary">+41 91 290 85 70</p>
                     </div>
                   </a>
                   <a href="mailto:info@tfedilservice.ch" className="flex items-center gap-4 p-4 bg-gray-50 active:bg-gray-100 rounded-2xl w-full">

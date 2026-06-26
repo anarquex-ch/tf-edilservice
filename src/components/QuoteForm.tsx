@@ -283,7 +283,7 @@ export default function QuoteForm() {
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full pl-12 pr-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:bg-white focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-gray-700"
-                    placeholder="+41 79 349 45 46"
+                    placeholder="+41 91 290 85 70"
                   />
                 </div>
               </div>

@@ -19,7 +19,7 @@ const navLinks = [
 const contactInfo = {
   address: "Via Campagna 4b, 6512 Giubiasco",
   email: "info@tfedilservice.ch",
-  phone: "+41 79 349 45 46",
+  phone: "+41 91 290 85 70",
 };
 
 export default function Footer() {

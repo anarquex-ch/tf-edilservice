@@ -60,13 +60,13 @@ export default function PreventivoPage() {
               <div className="bg-gray-900 text-white rounded-3xl p-8 shadow-xl shadow-gray-900/20">
                 <h3 className="text-xl font-bold mb-6">Preferisci parlarne a voce?</h3>
                 <div className="space-y-6">
-                  <a href="tel:+41793494546" className="flex items-center gap-4 group">
+                  <a href="tel:+41912908570" className="flex items-center gap-4 group">
                     <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-accent transition-colors">
                       <Phone className="w-5 h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-sm text-gray-400">Chiamaci subito</p>
-                      <p className="font-bold text-lg">+41 79 349 45 46</p>
+                      <p className="font-bold text-lg">+41 91 290 85 70</p>
                     </div>
                   </a>
                   <a href="mailto:info@tfedilservice.ch" className="flex items-center gap-4 group">
